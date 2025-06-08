@@ -58,7 +58,7 @@ Not : Verilerin kesişimi ile yalnızca güvenilir ve desteklenen kedi/köpek ı
    ```bash
    pip install pandas requests openpyxl
    
-  ### Kullanılan kütüphaneler: 
+  --Kullanılan kütüphaneler-- 
    
   pandas = CSV ve Excel gibi tablo formatlı dosyaları okur, yazar ve düzenler.
   

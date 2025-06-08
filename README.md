@@ -58,13 +58,18 @@ Not : Verilerin kesişimi ile yalnızca güvenilir ve desteklenen kedi/köpek ı
    ```bash
    pip install pandas requests openpyxl
    
+  ### Kullanılan kütüphaneler: 
+   
   pandas = CSV ve Excel gibi tablo formatlı dosyaları okur, yazar ve düzenler.
   
   requests = İnternetteki (GitHub gibi) bir dosyayı program içine çeker (download gibi ama kodla).
   
   openpyxl = .xlsx uzantılı modern Excel dosyalarını pandas ile birlikte okuyabilmek için kullanılır.
 
-
+  datetime = Python’un yerleşik modülüdür. Aşıların bir sonraki tarihini hesaplamak için tarih işlemleri yapılır.
+  
+  io = İnternetten gelen Excel dosyalarını pandas ile açabilmek için bellek içi byte akışını sağlar.
+  
 3. Reponun Klonlanması.
    
     ```bash

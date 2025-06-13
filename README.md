@@ -4,7 +4,7 @@
 
 Bu Python projesi, kedi ve köpek patili dostlarımız için terminal tabanlı bir Veteriner Takip Sistemi sunar. 
 
-Uygulama; aşı takvimi hatırlatıcısı, kilo kontrolü ve hastalık-belirti eşleştirme modüllerinden oluşur. Kullanıcıdan alınan bilgiler doğrultusunda analiz ve tavsiyeler sunar.
+Uygulama, aşı takvimi hatırlatıcısı, kilo kontrolü ve hastalık-belirti eşleştirme modüllerinden oluşur. Kullanıcıdan alınan bilgiler doğrultusunda analiz ve tavsiyeler sunar.
 
 ## Projenin Amacı
 

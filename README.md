@@ -52,13 +52,25 @@ Not : Verilerin kesişimi ile yalnızca güvenilir ve desteklenen kedi/köpek ı
 
 ## Kurulum
 
-1. Python 3.10+ kurulu olmalı.
+1.Python 3.11+ kurulu olmalı.
    
-2. Gerekli Kütüphaneleri Kurun.
-   ```bash
+2.Gerekli Kütüphaneleri Kurun.
+    ```bash
    pip install pandas requests openpyxl
    
-  --Kullanılan kütüphaneler-- 
+
+3.Proje sayfasına git:  
+   [https://github.com/CansuTorunoglu/veterinerlik_kaydi_otomatiklesmis_sistem](https://github.com/CansuTorunoglu/veterinerlik_kaydi_otomatiklesmis_sistem)
+
+4.Sağ üstteki `Code` butonuna tıklayın.
+
+5.Açılan pencereden `Download ZIP` seçeneğine tıklayın.
+
+6.ZIP dosyasını bilgisayarınıza indirin ve ayıklayın.
+
+7.Zip dosyasındaki dosya .py uzantılı olduğundan bir IDE ile birlikte açarak kullanmaya başlayabilirsiniz.
+
+## Kullanılan Kütüphaneler 
    
   pandas = CSV ve Excel gibi tablo formatlı dosyaları okur, yazar ve düzenler.
   
@@ -69,21 +81,6 @@ Not : Verilerin kesişimi ile yalnızca güvenilir ve desteklenen kedi/köpek ı
   datetime = Python’un yerleşik modülüdür. Aşıların bir sonraki tarihini hesaplamak için tarih işlemleri yapılır.
   
   io = İnternetten gelen Excel dosyalarını pandas ile açabilmek için bellek içi byte akışını sağlar.
-  
-
-
-3. Proje sayfasına git:  
-   [https://github.com/CansuTorunoglu/veterinerlik_kaydi_otomatiklesmis_sistem](https://github.com/CansuTorunoglu/veterinerlik_kaydi_otomatiklesmis_sistem)
-
-4. Sağ üstteki `Code` butonuna tıklayın.
-
-5. Açılan pencereden `Download ZIP` seçeneğine tıklayın.
-
-6. ZIP dosyasını bilgisayarınıza indirin ve ayıklayın.
-
-7. Zip dosyasındaki dosya .py uzantılı olduğundan bir IDE ile birlikte açarak kullanmaya başlayabilirsiniz.
-
-    
 
 
 
@@ -164,7 +161,14 @@ Bölüm:Hacettepe Üniversitesi, İstatistik Bölümü
 
 ## Örnek Kullanım Çıktıları
 ![veterinerlik_kaydi_otomatiklesmis_sistem](ornek_cikti.PNG)
+
+Tüm semptomları kapsayan hastalık eşleşmesi
+
 ![veterinerlik_kaydi_otomatiklesmis_sistem](ornek_cikti2.PNG)
+
+Bir sonraki yapılması gereken aşının otomatik olarak belirlenmesi
+
 ![veterinerlik_kaydi_otomatiklesmis_sistem](ornek_cikti_3.PNG)
 
+Veri setinde bulunan ırklara özgü kilo aralıkları için kilo kontrolü
 

@@ -52,12 +52,12 @@ Not : Verilerin kesişimi ile yalnızca güvenilir ve desteklenen kedi/köpek ı
 
 ## Kurulum
 
-1.Python 3.11+ kurulu olmalı.
-   
-2.Gerekli Kütüphaneleri Kurun.
-    ```bash
+1. Python **3.11+** kurulu olmalı.
+
+2. Gerekli kütüphaneleri kurun:
+
+   ```bash
    pip install pandas requests openpyxl
-   
 
 3.Proje sayfasına git:  
    [https://github.com/CansuTorunoglu/veterinerlik_kaydi_otomatiklesmis_sistem](https://github.com/CansuTorunoglu/veterinerlik_kaydi_otomatiklesmis_sistem)

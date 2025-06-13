@@ -59,16 +59,16 @@ Not : Verilerin kesişimi ile yalnızca güvenilir ve desteklenen kedi/köpek ı
    ```bash
    pip install pandas requests openpyxl
 
-3.Proje sayfasına git:  
+3. Proje sayfasına git:  
    [https://github.com/CansuTorunoglu/veterinerlik_kaydi_otomatiklesmis_sistem](https://github.com/CansuTorunoglu/veterinerlik_kaydi_otomatiklesmis_sistem)
 
-4.Sağ üstteki `Code` butonuna tıklayın.
+4. Sağ üstteki `Code` butonuna tıklayın.
 
-5.Açılan pencereden `Download ZIP` seçeneğine tıklayın.
+5. Açılan pencereden `Download ZIP` seçeneğine tıklayın.
 
-6.ZIP dosyasını bilgisayarınıza indirin ve ayıklayın.
+6. ZIP dosyasını bilgisayarınıza indirin ve ayıklayın.
 
-7.Zip dosyasındaki dosya .py uzantılı olduğundan bir IDE ile birlikte açarak kullanmaya başlayabilirsiniz.
+7. Zip dosyasındaki dosya .py uzantılı olduğundan bir IDE ile birlikte açarak kullanmaya başlayabilirsiniz.
 
 ## Kullanılan Kütüphaneler 
    

@@ -38,11 +38,11 @@ Not : Verilerin kesişimi ile yalnızca güvenilir ve desteklenen kedi/köpek ı
  
 2- Ana menüden bir modül seçilir:
 
-   -Aşı Hatırlatıcı
+   Aşı Hatırlatıcı
    
-   -Kilo Kontrolü
+   Kilo Kontrolü
    
-   -Belirti-Hastalık Eşleştirme
+   Belirti-Hastalık Eşleştirme
    
 3- İlgili veri alınır ve analiz gerçekleştirilir
 
@@ -70,21 +70,18 @@ Not : Verilerin kesişimi ile yalnızca güvenilir ve desteklenen kedi/köpek ı
   
   io = İnternetten gelen Excel dosyalarını pandas ile açabilmek için bellek içi byte akışını sağlar.
   
-3. Reponun Klonlanması.
-   
-    ```bash
-   git clone https://github.com/CansuTorunoglu/veterinerlik_kaydi_otomatiklesmis_sistem.git
-    
-  ###  Alternatif Yöntem: GitHub üzerinden indirme (Git kullanmadan)
 
-1. Proje sayfasına git:  
+
+3. Proje sayfasına git:  
    [https://github.com/CansuTorunoglu/veterinerlik_kaydi_otomatiklesmis_sistem](https://github.com/CansuTorunoglu/veterinerlik_kaydi_otomatiklesmis_sistem)
 
-2. Sağ üstteki `Code` butonuna tıklayın.
+4. Sağ üstteki `Code` butonuna tıklayın.
 
-3. Açılan pencereden `Download ZIP` seçeneğine tıklayın.
+5. Açılan pencereden `Download ZIP` seçeneğine tıklayın.
 
-4. ZIP dosyasını bilgisayarınıza indirin ve çıkartın.
+6. ZIP dosyasını bilgisayarınıza indirin ve ayıklayın.
+
+7. Zip dosyasındaki dosya .py uzantılı olduğundan bir IDE ile birlikte açarak kullanmaya başlayabilirsiniz.
 
     
 
@@ -94,25 +91,30 @@ Not : Verilerin kesişimi ile yalnızca güvenilir ve desteklenen kedi/köpek ı
 
  ### Modül 1: Aşı Hatırlatıcı
  
-Kullanıcı hayvan türünü ve yaş grubunu seçer (Yavru/Yetişkin).
+1-Kullanıcı hayvan türünü ve yaş grubunu seçer (Yavru/Yetişkin).
 
-Seçilen hayvan türü (kedi/köpek) ve yaş grubuna (yavru/yetişkin) göre aşılar belirlenir.
+2-Seçilen hayvan türü (kedi/köpek) ve yaş grubuna (yavru/yetişkin) göre aşılar belirlenir.
 
-Mevcut aşı listesinden yapılanlar işaretlenir ve tarih girilir.
+3-Mevcut aşı listesinden yapılanlar seçilir ve yapılma tarihi/tarihleri girilir.
 
-Sistem, yapılan aşıların son tarihine göre bir sonraki dozu hesaplar.
+4-Sistem, yapılan aşıların son tarihine göre bir sonraki dozu hesaplar.
 
-Yapılmamış aşılar listelenir.
+5-Yapılmamış aşılar listelenir.
 
- #####  Aşı Takvimi (Seçilene göre farklılık gösterir)
+#### Aşı Takvimi (Seçilene göre farklılık gösterir)
 
-Yavru hayvanlarda doz aralıkları (karma, bronşit, korona vb.) daha sık ve kademelidir.
+Yavru hayvanlarda doz aralıkları  daha sık ve kademelidir:
 
-Yetişkin hayvanlarda yılda 1 ve 1 tekrar şeklinde hatırlatma dozu uygulanır.
+-Yavru köpekte karma-bronşit ve korona 1. dozdan sonra 2. doz 21 gün sonra ardından tüm tekrar dozları yılda 1 dir.
 
+-Yavru kedide karma-bronşit-lösemi ve korona 1. dozdan sonra 2. doz 14 gün sonra ardından tüm tekrar dozları yılda 1 dir.
+
+-Yavru kedi/köpekte iç dış 2 ay kuduz yılda 1 dir.
+
+-Yetişkin kedi ve köpekte yılda 1 ve 1 tekrar şeklinde hatırlatma dozu uygulanır
 Kedi için lösemi aşısı varken köpek için lösemi aşısı istenmez.
 
-Yavru ve yetişkinklerin her ikisinde de ortak olan aşı iç dış parazit aşısıdır
+
 
 ###  Modül 2: Kilo Kontrolü
 

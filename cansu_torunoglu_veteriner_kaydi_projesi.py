@@ -90,9 +90,9 @@ class Asi_Takvimi:
 class Analiz:
     def __init__(self):
         
-        self.dog_file = 'https://github.com/CansuTorunoglu/veri/raw/refs/heads/main/kopek_boy_kilo.csv'
-        self.cat_file = 'https://github.com/CansuTorunoglu/veri/raw/refs/heads/main/kedi_boy_kilo.csv'
-        self.disease_file = 'https://github.com/CansuTorunoglu/veri/raw/refs/heads/main/kedi_kopek_hastalik.xlsx'
+        self.dog_file = 'https://github.com/CansuTorunoglu/veterinerlik_kaydi_otomatiklesmis_sistem/raw/refs/heads/main/kopek_boy_kilo.csv'
+        self.cat_file = 'https://github.com/CansuTorunoglu/veterinerlik_kaydi_otomatiklesmis_sistem/raw/refs/heads/main/kedi_boy_kilo.csv'
+        self.disease_file = 'https://github.com/CansuTorunoglu/veterinerlik_kaydi_otomatiklesmis_sistem/raw/refs/heads/main/kedi_kopek_hastalik.xlsx'
         self.veri_yukleme()
 
     def veri_yukleme(self):

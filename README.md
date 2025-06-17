@@ -52,12 +52,29 @@ Not : Verilerin kesişimi ile yalnızca güvenilir ve desteklenen kedi/köpek ı
 
 ## Kurulum
 
-1. Python **3.11+** kurulu olmalı.
+1. Python **3.12+** kurulu olmalı.
 
 2. Gerekli kütüphaneleri kurun:
 
-   ```bash
-   pip install pandas requests openpyxl
+    ```bash
+    pip install pandas requests openpyxl
+    ```
+
+     Not: Eğer bu kütüphaneler sisteminizde zaten yüklüyse, bazı fonksiyonlarda uyumsuzluk yaşamamak için güncellemeyi düşünebilirsiniz.  
+     Bu projede sıfırdan kurulum yapıldığı için en güncel sürümler kullanılmıştır.
+
+    Gerekirse güncellemek için:
+
+    ```bash
+    pip install --upgrade pandas requests openpyxl
+    ```
+    `pip`'in kendisini de güncellemeniz gerekebilir:
+
+    ```bash
+    python -m pip install --upgrade pip
+    ```
+   Bu güncellemleri yaptıktan sonra kurulumun 3. adımına geçebiliriz.
+
 
 3. Proje sayfasına git:  
    [https://github.com/CansuTorunoglu/veterinerlik_kaydi_otomatiklesmis_sistem](https://github.com/CansuTorunoglu/veterinerlik_kaydi_otomatiklesmis_sistem)

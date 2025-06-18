@@ -87,6 +87,8 @@ Not : Verilerin kesişimi ile yalnızca güvenilir ve desteklenen kedi/köpek ı
 
 7. Zip dosyasındaki dosya .py uzantılı olduğundan bir IDE ile birlikte açarak kullanmaya başlayabilirsiniz.
 
+Desteklenen Ortam: Bu proje Windows ortamında çalışmak üzere tasarlanmıştır.
+
 ## Kullanılan Kütüphaneler 
    
   pandas = CSV ve Excel gibi tablo formatlı dosyaları okur, yazar ve düzenler.

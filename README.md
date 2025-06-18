@@ -123,7 +123,9 @@ Yavru hayvanlarda doz aralıkları  daha sık ve kademelidir:
 
 -Yavru kedide karma-bronşit-lösemi ve korona 1. dozdan sonra 2. doz 14 gün sonra ardından tüm tekrar dozları yılda 1 dir.
 
--Yavru kedi/köpekte iç dış 2 ay kuduz yılda 1 dir.
+-Yavru kedi/köpekte iç dış parazit 2 ay kuduz yılda 1 dir.
+
+-Yetişkin kedi ve köpekte iç dış parazit aşısı 2 ayda bir şeklindedir.
 
 -Yetişkin kedi ve köpekte yılda 1 ve 1 tekrar şeklinde hatırlatma dozu uygulanır
 Kedi için lösemi aşısı varken köpek için lösemi aşısı istenmez.
